@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7ec850;
+    /* Green background */
+}
+
+canvas {
+    border: 2px solid black;
+    background-color: #7ec850;
+    /* Grass color */
+}
+
+
+.timer-display,
+.high-score-display {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.high-score-display {
+    top: 40px;
+}
